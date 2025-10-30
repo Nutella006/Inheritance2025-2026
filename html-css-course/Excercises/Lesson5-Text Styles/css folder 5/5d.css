@@ -1,0 +1,21 @@
+ 
+  .shopping{
+  font-family:Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+  }
+  .apple{
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    width:250px;
+   margin-top: 0;
+  }
+.learn{
+ font-family: Arial;
+  text-align: center;
+  width:250px;
+  font-size: 12px;
+  color:rgb(88, 88, 202);
+}

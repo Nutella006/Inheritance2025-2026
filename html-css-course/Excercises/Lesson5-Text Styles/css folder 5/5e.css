@@ -1,0 +1,47 @@
+
+  .new{
+    color:rgb(237, 154, 0);
+    font-family: Arial;
+    text-align: center;
+    width:300px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .macbook{
+font-family: Arial;
+ font-weight: bold;
+    font-size: 18px;
+    width:300px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:rgb(67, 65, 65);
+  }
+  .pros{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .dollar{
+    font-family: Arial;
+    color:gray;
+    font-size: 13px;
+    width:300px;
+    text-align: center;
+   margin-top:0;
+  }
+  
+  .my-button{
+    background-color: rgb(15, 130, 224);
+    color: white;
+    border:none;
+    font-family: Arial;
+    margin-left: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+  }

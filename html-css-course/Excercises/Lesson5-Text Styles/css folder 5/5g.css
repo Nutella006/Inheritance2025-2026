@@ -1,0 +1,29 @@
+
+.line1{
+  margin-bottom:5px;
+}
+.free{
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.channel-free{
+  font-family: Arial;
+  font-size: 15px;
+  color:gray;
+}
+.line2{
+  margin-top: 0;
+  font-family: Arial;
+  font-size: 15px;
+  width:500px;
+}
+.line3{
+  font-size: 15px;
+  font-family: Arial;
+}
+.chp{
+  color:rgb(114, 219, 248);
+}
+
