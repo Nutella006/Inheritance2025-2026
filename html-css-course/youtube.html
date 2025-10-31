@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
   .thumbnail{
     width: 300px;
@@ -14,12 +17,17 @@
     margin-left: 12px;
     display: block;
   }
-  .video-title{
-    width: 300px;
-  }
+
   .video-author,
   .video-stats{
 display: block;
+  }
+  .video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
   }
   .video-preview{
     width:300px;
@@ -27,14 +35,51 @@ display: block;
     vertical-align: top;
     margin-right: 15px;
   }
+  .video-info{
+    display: inline-block;
+    width:200px;
+  }
+  .channel-pictures{
+    display: inline-block;
+    width:50px;
+    vertical-align: top;
+  }
+  .profile-picture{
+    width: 40px;
+    border-radius:50px;
+  }
+  .thumbnail-row{
+    margin-bottom: 12px;
+  }
+  p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .video-author,
+  .video-stats{
+    font-size: 12px;
+    color:rgba(96,96,96,1);
+  }
+  .video-author{
+    margin-bottom:4px;
+  }
 </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search">
  
     <div class="video-preview">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> 
-    
+      
+      <div class="thumbnail-row">
+           <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> 
+      </div>
+     
+    <div>
+      <div class="channel-pictures">
+        <img  class="profile-picture" src="channel-pictures/channel-1.jpeg"> 
+      </div>
+      <div class="video-info">
     <p class="video-title">
       Taking Tech and AI with Google CEO Sundar Pichai!
     </p>
@@ -45,19 +90,33 @@ display: block;
       3.4M views · 6 months ago
     </p>
     </div>
-     <div class="video-preview">
-        <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> 
-    
+    </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      
+      <div class="thumbnail-row">
+           <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> 
+      </div>
+     
+    <div>
+      <div class="channel-pictures">
+        <img  class="profile-picture" src="channel-pictures/channel-2.jpeg"> 
+      </div>
+      <div class="video-info">
     <p class="video-title">
       
 Try Not To Laugh Challenge #9
     </p>
     <p class="video-author">
-     Markiplier
+      Markiplier
     </p>
     <p class="video-stats">
       19M views · 4 years ago
     </p>
+    </div>
+    </div>
+      </div>
     </div>
   </body>
 </html>
