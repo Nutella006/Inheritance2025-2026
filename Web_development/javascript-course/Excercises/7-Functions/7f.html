@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>7f</title>
+
+    <style>
+    
+    </style>
+  </head>
+  <body>
+   
+
+    <script>
+   function converToFahrenheit(Celcius){
+    F=((Celcius)*9/5+32);
+    return F;
+   }
+   function converToCelcius(Fahrenheit){
+    C=((Fahrenheit-32)*5/9);
+    return C;
+   }
+   function convertTemperatures(Temp,unit){
+    if(unit=='C'){
+      newF=converToFahrenheit(Temp);
+      return `${newF} F`
+    }
+     if(unit=='F'){
+      newC=converToCelcius(Temp);
+      return `${newC} C`
+    }
+   
+   }
+   console.log(convertTemperatures(25,'C'));
+   console.log(convertTemperatures(86,'F'));
+    </script>
+  </body>
+</html>

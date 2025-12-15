@@ -10,7 +10,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> quickSort(vector<int>& nums) {
- qs(nums,0,nums.size()-1);
+      qs(nums,0,nums.size()-1);
  return nums;
     }
     int partition(vector<int> &arr,int low,int high){
