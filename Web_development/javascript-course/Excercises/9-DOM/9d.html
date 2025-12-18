@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9a</title>
+
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <input placeholder="Name" class="my-name" onkeydown=" displaytext(event)">
+    <button onclick="
+    name();
+    ">Submit</button>
+    <p class="my-para"></p>
+   
+  
+    <script>
+      function name(){
+         document.querySelector('.my-para').innerHTML=`Your name is: ${document.querySelector('.my-name').value}`
+      }
+ function displaytext(event){
+   if(event.key==='Enter'){
+     name();
+   }
+ }
+    </script>
+  </body>
+</html>
